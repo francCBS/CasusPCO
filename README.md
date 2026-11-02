@@ -3,9 +3,7 @@ Casus 1 PCO - november 2026
 
 Algemeen:
 
-Dit proces berekent de kwartaalmutatie1 van de consumentenprijs van twee producten.
-Deze producten kunnen zelf gekozen worden.
-Het proces bestaat uit de volgende stappen:
+Dit proces berekent de kwartaalmutatie van de consumentenprijs van twee gekozen producten. Het proces bestaat uit de volgende stappen:
 
 Stap 0: Packages en functies laden, parameters instellen
 
