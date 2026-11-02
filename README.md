@@ -16,7 +16,7 @@ Daaruit worden de maandcijfers geselecteerd, deze worden gefilterd op de gekozen
 
 Stap 2: CPI per kwartaal berekenen
 
-Per kwartaal wordt het gemiddelde berekenen, gegroepeerd op product en kwartaalnummer. Het resultaat komt n cpi_data_mijnproducten_kwartaal.
+Per kwartaal wordt het gemiddelde berekenen, gegroepeerd op product en kwartaalnummer. Het resultaat komt in cpi_data_mijnproducten_kwartaal.
 
 Stap 3: Vorig kwartaal en CPI vorig kwartaal toevoegen, kwartaalmutaties berekenen
 
