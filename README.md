@@ -21,8 +21,10 @@ Per kwartaal wordt het gemiddelde berekenen, gegroepeerd op product en kwartaaln
 Stap 3: Vorig kwartaal en CPI vorig kwartaal toevoegen, kwartaalmutaties berekenen
 
 Bij elk kwartaal wordt het vorige kwartaal bepaald m.b.v. de functie ‘vorig_kwartaal’ (die in stap 0 is ingeladen via Casus_1_functions.R).
-cpi_data_mijnproducten_kwartaal wordt gejoined met zichzelf op de sleutels product, en kwartaal = vorig kwartaal.
-Deze kolommen worden toegevoegd: CPI_1 = CPI in vorig kwartaal, kwartaalmutatie = CPI_1/CPI
+cpi_data_mijnproducten_kwartaal wordt gejoined met zichzelf op deze condities 
+- de waarde van product komt overeen
+- kwartaal van voorkomen y = vorig kwartaal (kwartaal_1) van voorkomen x
+Deze kolommen worden toegevoegd: CPI_1 = CPI van vorig kwartaal, kwartaalmutatie = CPI_1/CPI
 
 Stap 4: Grafieken maken
 
