@@ -9,7 +9,7 @@
 library(dplyr)
 library(cbsodataR)
 
-source("Casus_1_functions.R")
+source("functions.R")
 
 # Ik kies deze producten (groepen/coicops): 032110 Herenschoenen, 032120 Damesschoenen
 mijnproducten <- c("CPI032110", "CPI032120")
