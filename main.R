@@ -104,7 +104,8 @@ lines(as.factor(cpi_data_product2_kwartaal$Kwartaal), cpi_data_product2_kwartaal
 
 plot(as.factor(kwartaalmutaties_product1$Kwartaal), kwartaalmutaties_product1$Kwartaalmutatie, 
      type = "l", 
-     col = "red" 
+     col = "red",
+     ylim = c(0.5, 1.5)
 )
 
 # Grafiek voor product2 in zelfde plot tonen
